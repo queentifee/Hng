@@ -13,7 +13,7 @@ exports.getFact = async (req, res) => {
         const catFact = response.data?.fact || "Cats are beautiful creatures"
 
         const data = {
-            status: 'sucess',
+            status: 'success',
             user: {
                 email: process.env.EMAIL,
                 name: process.env.NAME,
@@ -28,7 +28,7 @@ exports.getFact = async (req, res) => {
         console.error ("Error fetching fact:", error);
 
         return res.status(200).json ({
-            status: 'sucess',
+            status: 'success',
             user: {
                 email: process.env.EMAIL,
                 name: process.env.NAME,
