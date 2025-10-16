@@ -22,8 +22,8 @@ If the cat fact API fails:
 "fact": "The cat fact API call was not successful this time. Please try again later."
  Setup
 Clone & Install
-git clone https://github.com/queentifee/hng.git
-cd hng
+git clone https://github.com/queentifee/Hng.git
+cd Hng
 npm install
 
 Create .env
